@@ -257,8 +257,8 @@
 
     /* ---------- timeline (ms) ---------- */
     var TL = reduce
-      ? { ring: 0, cutS: 0, cutE: 0, sub: 50, route: 100, cS: 150, cE: 150, welcome: 200, exit: 2200 }
-      : { ring: 250, cutS: 950, cutE: 2400, sub: 2400, route: 2850, cS: 3050, cE: 3950, welcome: 3650, exit: 10000 };
+      ? { ring: 0, cutS: 0, cutE: 0, sub: 50, route: 100, cS: 150, cE: 150, welcome: 200, exit: 10000 }
+      : { ring: 250, cutS: 950, cutE: 2400, sub: 2400, route: 2850, cS: 3050, cE: 3950, welcome: 3650, exit: 20000 };
 
     var done = {}, exiting = false, raf = 0, glowA = 0, glowX = 0, glowY = 0;
     var T0 = performance.now(), last = T0;
